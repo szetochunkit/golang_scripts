@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 )
-
+//https://www.epochconverter.com/ldap
 func filetimeToFormattedString(filetime uint64) string {
 	// 1601-01-01 00:00:00 UTC 对应的 FileTime 值（以纳秒为单位）
 	const filetimeEpoch = 116444736000000000
